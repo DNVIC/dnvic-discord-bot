@@ -44,16 +44,21 @@ async def on_message(message):
         return
     
     user = message.author
+    guild = client.get_guild(270723825417584640)
+    notif = guild.get_role(409133998195867650)    
 
-    if message.content.startswith('!notifications' or '!notif'):
-        notiftrue = true
-        async for role in user.roles:
+
+    if message.content.startswith('!notifications'):
+        notiftrue = True
+        for role in user.roles:
             if role == notif:
                 await message.channel.send("Notifications Role Removed")
                 await user.remove_roles(notif)
-                notiftrue == false
-        if notiftrue == true:
+                notiftrue = False
+                print("Removed notifications from" + user.name)
+        if notiftrue == True:
             await message.channel.send("Notifications Role Added")
+            print("Added notifications to " + user.name)
             await user.add_roles(notif)
 
             
