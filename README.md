@@ -5,7 +5,7 @@ If you want to use this, you need a server (you can use a computer but most comp
 
 # Instructions
 
-Step 1 Making the bot:
+# Step 1 Making the bot:
 
 go here: https://discord.com/developers/applications 
 make an application (name and picture don't matter at all so dont make a picture for this one) 
@@ -26,7 +26,7 @@ under bot click on administrator (you can view the source code so its not going 
 
 click on the url under scopes and invite it to your server 
 
-Step 2 Installing python and the bot:
+# Step 2 Installing python and the bot:
 
 Install python 3 (3.5.3 and up should work)
 If you don't know how to install it, go here (https://wiki.python.org/moin/BeginnersGuide/Download)
@@ -52,7 +52,7 @@ In the above command rename src to whatever you named your folder
 Other:
 Download this repository and copy it over to the src (or whatever else folder)
 
-Step 3 Setting up the bot:
+# Step 3 Setting up the bot:
 
 Go back to the discord link, and go back into the bot page. Once you're there, click copy under the token section, and put that token in the first line of a plaintext file called token.tkn in the discord-bot folder.
 
