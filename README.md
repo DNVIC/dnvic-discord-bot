@@ -42,7 +42,7 @@ Once python is installed, go into command line/terminal and type one of these tw
 ```
 Create a folder named discord-bot (or something else), and in that folder create another folder named src (or something else again)
 
-###Linux:
+### Linux:
 In the terminal in the discord-bot folder (if you dont have git installed, install it), type 
 ```
 git clone https://github.com/DNVIC/dnvic-discord-bot.git src
