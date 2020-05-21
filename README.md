@@ -7,16 +7,16 @@ If you want to use this, you need a server (you can use a computer but most comp
 
 Step 1 Making the bot:
 
-go here: https://discord.com/developers/applications
-make an application (name and picture don't matter at all so dont make a picture for this one)
-click on bot on the left side
-click add a bot
-click yes do it
-change the username and picture to what you want your bots usernames/pictures to be
-click on oauth2 on the side
-under scopes click on bot
-under bot click on administrator (you can view the source code so its not going to destroy the server. If you want, it probably will work with send messages, read message history, and manage roles)
-click on the url under scopes and invite it to your server
+go here: https://discord.com/developers/applications \n
+make an application (name and picture don't matter at all so dont make a picture for this one) \n
+click on bot on the left side \n
+click add a bot \n
+click yes do it \n
+change the username and picture to what you want your bots usernames/pictures to be \n
+click on oauth2 on the side \n
+under scopes click on bot \n 
+under bot click on administrator (you can view the source code so its not going to destroy the server. If you want, it probably will work with send messages, read message history, and manage roles) \n
+click on the url under scopes and invite it to your server \n
 
 Step 2 Installing python and the bot:
 
